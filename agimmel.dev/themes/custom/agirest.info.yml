@@ -1,0 +1,14 @@
+name: Agirest
+description: Custom drupal 8 theme developed for agimmel
+type: theme
+core: 8.x
+
+libraries:
+  - agirest/global-css
+  - agirest/global-js
+
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css 
+  - core/themes/stable/css/system/components/align.module.css
+
+
